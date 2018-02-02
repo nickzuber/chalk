@@ -12,13 +12,13 @@ let test_colors () : unit =
   print_endline ""
 
 let test_light_colors () : unit =
-  chk (Chalk.light_red "red");
-  chk (Chalk.light_green "green");
-  chk (Chalk.light_yellow "yellow");
-  chk (Chalk.light_blue "blue");
-  chk (Chalk.light_magenta "magenta");
-  chk (Chalk.light_cyan "cyan");
-  chk (Chalk.light_gray "gray");
+  chk (Chalk.light_red "light_red");
+  chk (Chalk.light_green "light_green");
+  chk (Chalk.light_yellow "light_yellow");
+  chk (Chalk.light_blue "light_blue");
+  chk (Chalk.light_magenta "light_magenta");
+  chk (Chalk.light_cyan "light_cyan");
+  chk (Chalk.light_gray "light_gray");
   print_endline ""
 
 let test_bg_colors () : unit =
