@@ -3,5 +3,3 @@ S test/**
 S utils/**
 
 B _build/**
-
-PKG core batteries ounit

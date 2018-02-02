@@ -1,26 +1,23 @@
-OCB_FLAGS = -use-ocamlfind -pkg core,batteries,ounit -tags thread
+OCB_FLAGS = -use-ocamlfind -tags thread
 OCB =       ocamlbuild $(OCB_FLAGS)
 
 MODULES = src \
-					utils \
-					src/transformers
+MODULES = src \
+					utils
 
 INCLUDE_MODULES = $(foreach dir, $(MODULES), -I $(dir))
 
-all: build try
+all: build
 test: build-test run-test
 
-try:
-	./main.native
-
 build:
-	$(OCB) $(INCLUDE_MODULES) src/main.native
+	ocamlc -i src/chalk.ml > src/chalk.mli
 
 run-test:
-	./test_main.native
+	./test_chalk.native
 
-build-test:
-	$(OCB) $(INCLUDE_MODULES) tests/test_main.native
+build-test: build
+	$(OCB) $(INCLUDE_MODULES) tests/test_chalk.native
 
 clean:
 	$(OCB) -clean
