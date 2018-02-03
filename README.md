@@ -1,6 +1,11 @@
-<div align="center">
-  <img src="assets/logo.png" />
-</div>
+<h1 align="center">
+	<br>
+	<br>
+	<img width="320" src="assets/logo.png" alt="chalk">
+	<br>
+	<br>
+	<br>
+</h1>
 
 > Composable and simple terminal highlighting package for OCaml
 
