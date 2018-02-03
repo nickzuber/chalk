@@ -1,6 +1,6 @@
 # Chalk
 
-> Terminal highlighting package for OPAM
+> Composable and simple terminal highlighting package for OCaml
 
 <img src="assets/example.png" />
 
