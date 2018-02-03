@@ -1,0 +1,13 @@
+opam-version: "1.2"
+name: "chalk"
+version: "1.0"
+maintainer: "Nick Zuber <zuber.nicholas@gmail.com>"
+author: "Nick Zuber <zuber.nicholas@gmail.com>"
+homepage: "https://github.com/nickzuber/chalk"
+bug-reports: "https://github.com/nickzuber/chalk/issues"
+license: "MIT"
+dev-repo: "git@github.com:nickzuber/chalk.git"
+build: [make "build"]
+install: [make "build"]
+remove: ["ocamlfind" "remove" "chalk"]
+depends: "ocamlfind"
