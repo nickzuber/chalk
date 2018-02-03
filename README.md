@@ -1,8 +1,5 @@
 <h1 align="center">
-	<br>
-	<br>
 	<img width="320" src="assets/logo.png" alt="chalk">
-	<br>
 	<br>
 	<br>
 </h1>
