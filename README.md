@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/example.png" />
+  <img src="assets/logo.png" />
 </div>
 
 > Composable and simple terminal highlighting package for OCaml
