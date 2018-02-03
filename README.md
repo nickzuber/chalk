@@ -1,4 +1,6 @@
-# Chalk
+<div align="center">
+  <img src="assets/example.png" />
+</div>
 
 > Composable and simple terminal highlighting package for OCaml
 
